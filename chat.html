@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QR Code Scanner</title>     
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+      <main class="main_container">
+
+          <section class="section_container">
+             <nav class="navbar_container">
+                 <nav class="navbar_icons" id="navbar_icons">
+                       
+                        <a href="index.html"   >
+                            <i class="uil uil-text-fields  "></i>
+                        </a>
+                        <a  href="chat.html"  >
+                            <i class="uil uil-message "></i>
+                        </a> 
+                        <a  href="upload.html"  >
+                            <i class="uil uil-comment-alt-chart-lines "></i>
+                        </a> 
+                    
+                 </nav>
+             </nav>
+
+             <section class="form_container">
+                 <div class="form_list_container">
+                     <h1>Email</h1>
+                     <div class="input_container">
+                     <input placeholder="Add your email" type="email" required/>
+                        
+                     </div>
+                     <div class="input_container">
+                     <input placeholder="Enter email subject" type="text" required/>
+                        
+                    </div>
+                    <div class="input_container">
+                        <textarea placeholder="Enter your message" cols="10" rows="5" maxlength="100" required></textarea>
+                    </div>
+                     
+                     
+                 </div>
+
+
+                 <div class="button_container">  
+                    <button class="generate_button"><i class="uil uil-sync"></i> GENERATE QR CODE</button>
+                 </div>
+             </section>
+
+             
+
+          </section>
+          <section >
+            <div class="scanner_container">
+
+                <div class="menu_container">
+                  <i class="uil uil-focus"></i>
+                </div>
+
+                <div class="qr_scanner_container">
+                    <img src="./assets/qrCode.png" alt=""/>
+                </div>
+
+                <div class="custom_container">
+
+                    <div class="frame_container">
+                        <p>FRAME</p>
+                        <i class="uil uil-angle-down"></i>
+                    </div>
+
+                    <div class="frame_container">
+                        <p>SHAPE AND COLOR</p>
+                        <i class="uil uil-angle-down"></i>
+                    </div>
+
+                    <div class="frame_container">
+                        <p>LOGO</p>
+                        <i class="uil uil-angle-down"></i>
+                    </div>
+                    
+                </div>
+
+                <div class="download_container">
+                    <button class="jpg"> <i class="uil uil-import"></i> JPG</button>
+                    <button class="svg"> <i class="uil uil-import"></i> SVG/EPS</button>
+                </div>
+                
+            </div>
+        </section>
+        
+
+      </main>
+	<script src="main.js" ></script>
+  </body>
+</html>
